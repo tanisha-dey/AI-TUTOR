@@ -1,0 +1,155 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fd0c28;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #f58c6f, #FFD700);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.hero button {
+    background-color: #ec5b2f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #050505;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: #be263b;
+    color: #FFD700;
+}
+
+/* Features Section */
+.features {
+    padding: 40px;
+    text-align: center;
+    background-color: #000000;
+    );
+}
+
+.feature-card {
+    background: #f0e292;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+    background-color:  #e26e4a;
+    color: #FFD700;
+}
+
+.how-it-works{
+    text-align: center;
+    background-color: #000000;
+    color: #ed653f;
+}
+
+/* Testimonials */
+.testimonials {
+    background-color: #f0e292;
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonial {
+    margin: 10px;
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #f58c6f, #FFD700);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    color: #060606;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    max-width: 400px;
+}
+
+.modal-content .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+}

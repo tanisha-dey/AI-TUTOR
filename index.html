@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tutor</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">AI Tutor</div>
+        <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Your Personal AI Tutor</h1>
+        <p>Learn Smarter, Not Harder!</p>
+        <br>
+        <button onclick="startLearning()">Get Started</button>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Features</h2>
+        <div class="feature-card" onclick="showDetails('personalized')">
+            <h3>Personalized Learning</h3>
+            <p>Our AI adapts to your learning style and pace, offering customized explanations and exercises.</p>
+        </div>
+        <div class="feature-card" onclick="showDetails('availability')">
+            <h3>24/7 Availability</h3>
+            <p>Learn anytime, anywhere with our AI tutor.</p>
+        </div>
+        <div class="feature-card" onclick="showDetails('chat')">
+            <h3>Chat Box</h3>
+            <p>Make learning more accessible, personalized and interactive, enhancing students overall educational experience.</p>
+        </div>
+        <div class="feature-card" onclick="showDetails('focus')">
+            <h3>Focus mode</h3>
+            <p>Creating a distraction-free environment, enabling students to stay engaged and productive while studying.</p>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="step">
+            <h3>1.Set Your Goals</h3>
+            <p>Share your goals for personalized learning.</p>
+        </div>
+        <div class="step">
+            <h3>2. Choose Your Mode</h3>
+            <p>Select between focused learning or testing mode.</p>
+        </div>
+        <div class="step">
+            <h3>3. Start Learning</h3>
+            <p>Get interactive lessons, feedback and track your progress.</p>
+        </div>
+        <br><br><br>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial">
+            <p>"The AI tutor helped me understand math concepts I struggled with for years!"</p>
+            <h4>— Anna, 10th Grade</h4>
+        </div>
+        <div class="testimonial">
+            <p>"Instant feedback made a huge difference in my study routine."</p>
+            <h4>— Sam, College Freshman</h4>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <p>Contact Us: support@aitutor.com | Follow us on social media:</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+
+    <!-- Modal for Feature Details -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-text"></p>
+        </div>
+    </div>
+</body>
+</html>
