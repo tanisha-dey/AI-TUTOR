@@ -14,16 +14,19 @@
         <ul>
             <li><a href="#features">Features</a></li>
             <li><a href="#how-it-works">How It Works</a></li>
-            <!--<li><a href="#testimonials">Testimonials</a></li>-->
+            <!--<li><a href="#chat">Chat</a></li> -->
             <li><a href="#contact">Contact Us</a></li>
         </ul>
-        <button id="theme-toggle" onclick="toggleTheme()">🌙 Dark Mode</button>
+        <div class="nav-buttons">
+            <button id="theme-toggle" onclick="toggleTheme()">🌙 Dark Mode</button>
+            <!--<button id="focus-toggle" onclick="toggleFocusMode()">📖 Focus Mode</button> -->
+        </div>
     </nav>
 
     <section class="hero">
         <h1>Your Personal AI Tutor</h1>
         <p>Learn Smarter, Not Harder!</p>
-        <button onclick="startLearning()">Get Started</button>
+        <!--<button onclick="startLearning()">Get Started</button>-->
     </section>
 
     <section id="features" class="features">
@@ -31,23 +34,22 @@
         <div class="feature-container">
             <div class="feature-box">
                 <h3>Personalized Learning</h3>
-                <p>Our AI adapts to your learning style and pace, offering customized explanations and exercises.</p>
+                <p>Adapts to your learning style and pace, offering customized help.</p>
             </div>
             <div class="feature-box">
                 <h3>24/7 Availability</h3>
                 <p>Learn anytime, anywhere with our AI tutor.</p>
             </div>
             <div class="feature-box">
-                <h3>Chat Box</h3>
-                <p>Make learning more accessible, personalized, and interactive, enhancing students' overall educational experience.</p>
+                <h3>Efficient Learning</h3>
+                <p>Learn, simplify and take quizzes with our AI Tutor.</p>
             </div>
-            <div class="feature-box">
+            <!--<div class="feature-box">
                 <h3>Focus Mode</h3>
-                <p>Create a distraction-free environment, enabling students to stay engaged and productive while studying.</p>
-            </div>
+                <p>Create a distraction-free environment, enabling students to stay productive while studying.</p>
+            </div>-->
         </div>
     </section>
-
     <section id="how-it-works" class="how-it-works">
         <h2>How It Works</h2>
         <div class="steps-container">
@@ -65,6 +67,63 @@
             </div>
         </div>
     </section>
+    <section id="reading" class="features">
+        <h2>Reading</h2>
+        <div class="feature-container">
+            <div class="feature-box">
+                <h3>Upload and Learn</h3>
+                <input type="file" id="upload-reading-material" accept=".pdf,.docx,.txt">
+                <p>Upload your document and start reading</p>
+                <button onclick="startReading()">Start Reading</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="simplification" class="features">
+        <h2>Simplification</h2>
+        <div class="feature-container">
+            <div class="feature-box">
+                <h3>Text Simplification</h3>
+                <textarea id="text-input" placeholder="Paste your text here..." rows="5"></textarea>
+                <button onclick="simplifyText()">Simplify</button>
+                <p id="simplified-output">Simplified text will appear here.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="features">
+        <h2>Quiz</h2>
+        <div class="feature-container">
+            <div class="feature-box">
+                <h3>Take a Quiz</h3>
+                <p>Test your knowledge with interactive quizzes based on your learning.</p>
+                <button onclick="startQuiz()">Start Quiz</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Report Section -->
+    <section id="report" class="features">
+        <h2>Progress Report</h2>
+        <div class="feature-container">
+            <div class="feature-box">
+                <h3>Your Performance</h3>
+                <p>Get a detailed report of your learning progress and areas to improve.</p>
+                <button onclick="generateReport()">View Report</button>
+            </div>
+        </div>
+    </section>
+    <!--<section id="chat" class="chat-box">
+        <h2>AI Chat</h2>
+        <div id="chat-container">
+            <div id="chat-messages"></div>
+            <input type="text" id="chat-input" placeholder="Ask a question..." />
+            <button id="send-button" onclick="sendMessage()">Send</button>
+        </div>
+    </section>-->
+
+    
 
     <footer id="contact">
         <p>Contact Us: support@aitutor.com</p>

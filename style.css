@@ -85,7 +85,7 @@ nav ul li a:hover {
 }
 
 .hero p {
-    font-size: 1.3em;
+    font-size: 2em;
     margin-bottom: 30px;
 }
 
@@ -224,4 +224,114 @@ body.dark .how-it-works {
 
 body.dark footer {
     background-color: #000000;
+}
+.chat-box {
+    padding: 60px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.chat-box h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    background: #fff;
+}
+
+#chat-messages {
+    height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#chat-input {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#send-button {
+    padding: 10px 20px;
+    background-color: #5bc0be;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: #3a506b;
+}
+
+body.focus {
+    filter: grayscale(100%);
+    pointer-events: none;
+    overflow: hidden;
+}
+/* Same base styling with added adjustments for new sections */
+
+.feature-box {
+    /* Adjust for new section buttons and spacing */
+    width: 350px;
+}
+
+textarea {
+    width: 90%;
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #5bc0be;
+    border-radius: 8px;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+button {
+    /* Ensure consistency across all buttons */
+    padding: 12px 25px;
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #09b9b6;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translateY(-5px);
+    background-color: #043b3a;
+}
+
+#reading p{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#reading h3{
+    margin-bottom: 30px;
+}
+#simplification  button{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#quiz button{
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+#report button{
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
