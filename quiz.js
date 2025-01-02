@@ -1,33 +1,33 @@
 const questions = [
     {
         level: "Level 1: Remembering",
-        question: "The following illustration is another reaction where removal of hydrogen can also be cited as _________:",
-        correctAnswer: "An oxidation reaction"
+        question: "The oxidation number of ____ is +1, except when it is bonded to metals in binary compounds (that is compounds containing two elements)",
+        correctAnswer: "hydrogen"
     },
     {
         level: "Level 1: Remembering",
-        question: "To summarize, ________ is defined as the addition of oxygen/electronegative element to a substance or removal of hydrogen/electropositive element from a substance:",
-        correctAnswer: "The term “oxidation”"
+        question: "Chlorine, ___ and iodine when combined with oxygen, for example in oxoacids and oxoanions, have positive oxidation numbers.",
+        correctAnswer: "bromine"
     },
     {
         level: "Level 2: Understanding",
-        question: "2 H₂S(g) + O₂(g) → 2 S (s) + 2 H₂O (l). This reaction does not involve oxygen but ____________:",
-        correctAnswer: "Other electronegative elements"
+        question: "A term that is often used interchangeably with the oxidation number is the oxidation ______.",
+        correctAnswer: "state"
     },
     {
         level: "Level 2: Understanding",
-        question: "CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O (l). A careful examination of reaction (7.3) shows that oxygen has replaced ______, prompting chemists to reinterpret oxidation:",
-        correctAnswer: "Which hydrogen"
+        question: "Charge transfer is better described as an ____ shift rather than a complete loss of it by H and gain by O",
+        correctAnswer: "electron"
     },
     {
         level: "Level 3: Applying",
-        question: "Because of the presence of dioxygen in the atmosphere (~20%), many elements combine with it and this is _______ why they commonly occur on the earth in the form of their oxides:",
-        correctAnswer: "The principal reason"
+        question: "Off late, environmental issues like hydrogen economy, use of liquid hydrogen as _____ and ozone holes have started figuring under redox phenomenon",
+        correctAnswer: "fuel"
     },
     {
         level: "Level 3: Applying",
-        question: "In reaction (7.11), simultaneous oxidation of _______ to stannic chloride is also occurring because of the addition of electronegative element chlorine to it:",
-        correctAnswer: "Stannous chloride"
+        question: "In the ______ period, the highest value of oxidation number changes from 1 to 7.",
+        correctAnswer: "third"
     }
 ];
 
